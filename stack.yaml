@@ -1,3 +1,9 @@
 resolver: lts-3.9
 packages:
 - '.'
+
+docker:
+  enable: true
+  stack-exe: "image"
+  repo: "merc1031/stack-musl:7.10.2"
+
